@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background: #2e253b;
+  color: white;
+}
+
+a {
+	color:aquamarine;
+}
+
+h1 {
+	font-family: "Verdana";
+}
+
+h3 {
+	font-family: "Verdana";
+}
+
+h4 {
+	font-family: "Helvetica";
+}
