@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+a {
+	color:"#ff2424";
+}
+
+h1 {
+	font-family: "Verdana";
+}
+
+h2 {
+	font-family: "Verdana";
+}
+
+h4 {
+	font-family: "Helvetica";
+}
+
+p {
+	font-family: "Helvetica";
+}
+
