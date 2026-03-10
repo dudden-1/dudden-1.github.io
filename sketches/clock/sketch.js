@@ -71,8 +71,8 @@ function draw() {
       hr = hr % 12
     }
     
-    //fill(255)
-    //text(hr + ":" + m + ":" + sec, 0, -250) 
+    // fill(255)
+    // text(hr + ":" + m + ":" + sec, 0, -250) 
   }
   else { //display all
     sec = 59
@@ -103,10 +103,11 @@ function draw() {
   
   //hours
   if (hr === 1) {
-      openBigEyes = bigOpenOrder[0]
+    openBigEyes = []
+    openBigEyes.push(bigOpenOrder[0])
   }
   else if (openBigEyes.length === hr - 1) {
-    openBigEyes.push(bigOpenOrder[sec])
+    openBigEyes.push(bigOpenOrder[hr])
   }
   else if (openBigEyes.length < hr - 1) {
     for(i = 0; i < hr; i++) {
@@ -118,7 +119,7 @@ function draw() {
       openMediumEyes = []
   }
   else if (openMediumEyes.length === m - 1) {
-    openMediumEyes.push(mediumOpenOrder[sec])
+    openMediumEyes.push(mediumOpenOrder[m])
   }
   else if (openMediumEyes.length < m - 1) {
     for(i = 0; i < m; i++) {
